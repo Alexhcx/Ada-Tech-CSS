@@ -1,0 +1,88 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+
+    font-size: 62%;
+
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    background-color: rgb(189, 48, 48);
+    font-size: 96px;
+    font-size: 9.6rem;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration:underline;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Comic Neue', arial, cursive;
+}
+
+h2{
+
+    font-size: 3.2rem;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+    text-indent: 90px;    
+}
+
+a{
+
+    font-size: 5rem;
+
+}
+
+
+a:visited{
+
+    color: red;
+
+}
+
+a:hover{
+
+    color: rgb(217, 255, 0);
+
+}
+
+.novo-em{
+    font-size: 150%;
+}
+
+.novo-em h2{
+    font-size: 3.2rem;
+}
+
+.bg {
+    height: 70vh;
+    width: 100vw;
+    background-image: url('https://images.unsplash.com/photo-1692804945585-31609176a192?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8');
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Fonte serifada são as fontos que podem ter pontas em suas letras;*/

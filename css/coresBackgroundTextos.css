@@ -1,0 +1,35 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    background-color: rgb(189, 48, 48);
+    font-size: 96px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration:underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+p{
+    font-size: 12px;
+    text-align: justify;
+    text-indent: 90px;    
+}
+
+.bg {
+    height: 500px;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1692804945585-31609176a192?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8');
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* o valor cover no atributo background-size permite que a imagem trabalhe como uma capa;*/
