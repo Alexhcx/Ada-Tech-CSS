@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comic+Neue:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62%;
+}
+
+body {
+    font-family: 'times new roman';
+    font-size: 1.8rem;
+}
+
+main{
+    padding-top: 7rem;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: separate;
+    /* border-collapse: collapse; */
+}
+
+table tr:first-child {
+    background-color: steelblue;
+    color: white;
+}
+
+table tr:nth-child(2n + 3) {
+    background-color: #a39f9f;
+}
+
+h1 {
+    color: blueviolet;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 4.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: arial, 'Roboto', cursive;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+.novo-em {
+    font-size: 300%;
+}
+
+p {
+    font-size: 1.8rem;
+    text-align: justify;
+    text-indent: 90px;
+}
+
+a {
+    font-size: 2.4rem;
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+.bg {
+    height: 20vh;
+    width: 100vw;
+    background-color: #555;
+    background-image: url('https://images.unsplash.com/photo-1692804945585-31609176a192?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+ul,
+ol {
+    padding-left: 3.4rem;
+    /* list-style: none; */
+}
+
+ul {
+    list-style: circle;
+}
+
+ol {
+    list-style: upper-roman;
+    /* list-style: upper-latin; */
+    /* list-style: lower-alpha; */
+}
+
+nav.menu {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 7rem;
+    z-index: 1;
+}
+
+.contact-list h2 {
+    top: 6.9rem;
+    position: sticky;
+    background-color: greenyellow;
+}
+
+.boxes {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box + span{
+
+    display: none;
+}
+
+.box {
+    flex: 30%;
+    height: 10rem;
+    width: 20rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: blue;
+    color: white;
+    border: 10px solid rgb(207, 11, 11);
+    display: inline-block;
+    border-radius: 0.4rem;
+    position: relative;
+    /* position: static; */
+}
+
+.box:nth-child(1) {
+    /* position: absolute; */
+    /* position: static; */
+    /* top: 30px;
+    left: 100px; */
+}
+
+/* .box:nth-child(2){
+    position: fixed;
+    top: 15px;
+    left: 30px;
+
+} */
+
+.box:nth-child(n+2) {
+    /* position: absolute; */
+    /* display: none; */
+}
+
+img {
+    height: 10rem;
+    width: 20rem;
+    object-fit: cover;
+}
